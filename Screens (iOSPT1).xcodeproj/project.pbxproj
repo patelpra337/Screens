@@ -12,6 +12,8 @@
 		AB5029F422826DF1003239F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5029F222826DF1003239F1 /* Main.storyboard */; };
 		AB5029F622826DFE003239F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5029F522826DFE003239F1 /* Assets.xcassets */; };
 		AB5029F922826DFE003239F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5029F722826DFE003239F1 /* LaunchScreen.storyboard */; };
+		AB502A0122827ADF003239F1 /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB502A0022827ADF003239F1 /* NumberViewController.swift */; };
+		AB502A0322828163003239F1 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB502A0222828163003239F1 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AB5029F522826DFE003239F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5029F822826DFE003239F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB5029FA22826DFE003239F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB502A0022827ADF003239F1 /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		AB502A0222828163003239F1 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				AB5029EE22826DF1003239F1 /* AppDelegate.swift */,
 				AB5029F022826DF1003239F1 /* ViewController.swift */,
 				AB5029F222826DF1003239F1 /* Main.storyboard */,
+				AB502A0022827ADF003239F1 /* NumberViewController.swift */,
 				AB5029F522826DFE003239F1 /* Assets.xcassets */,
 				AB5029F722826DFE003239F1 /* LaunchScreen.storyboard */,
 				AB5029FA22826DFE003239F1 /* Info.plist */,
+				AB502A0222828163003239F1 /* RedViewController.swift */,
 			);
 			path = "Screens (iOSPT1)";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB502A0322828163003239F1 /* RedViewController.swift in Sources */,
+				AB502A0122827ADF003239F1 /* NumberViewController.swift in Sources */,
 				AB5029F122826DF1003239F1 /* ViewController.swift in Sources */,
 				AB5029EF22826DF1003239F1 /* AppDelegate.swift in Sources */,
 			);
